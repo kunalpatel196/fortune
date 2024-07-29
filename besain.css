@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #e84200!important;
+}
+.cf1 {
+    text-decoration: none;
+    list-style: none;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    height: auto;
+    overflow: hidden;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.navc4 {
+    margin-top: 20px;
+}
+
+.cf1 .navc8 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 32px;
+
+    font-size: 17px;
+    color: #e84200;
+}
+
+.back h1 {
+
+    font-weight: bold;
+}
+
+.back p {
+    color: black;
+    background: none;
+    -webkit-text-fill-color: black;
+}
+
+.back {
+    margin: 0;
+    padding: 0;
+    background: url(bg-text.png) top center;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 100px;
+}
+
+.besanback {
+    background-image: url('Untitled-1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.backbloom {
+    background-image: url('bloom-big.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    position: absolute;
+    top: 300px;
+    right: 70px;
+    animation: rotate 25s linear infinite;
+
+   
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+
+}
+.img{
+    margin: auto;
+    text-align: center;
+    background-image: url('Besan.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 350px;
+    width: 300px;
+   position: relative;
+   top: 325px;
+   right: -115px;
+ 
+   
+}
+.deatail{
+    background-image: url('MP-grade-1-wheat-BOP.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+}
+.accordion {
+    margin-top: 10px;
+    color:  #e84200;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    
+    transition: 0.4s;
+  }
+  .accordion span{
+    float: right;
+    color: #000;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #e84200; 
+    color: #fff;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  .panel p{
+    font-size: 20px;
+
+  }
+  .ques{
+    background-color: #e84200;
+    color: #fff;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    height: 100px;
+    border-radius: 15px;
+    padding: auto;
+    padding-top: 25px;
+    margin-top: 50px;
+}
+.cfgmo {
+    background-color: #fbbd00;
+    height: 650px;
+    margin-top: 70px;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.cf7 .imgdiv {
+    background-color: #fff;
+    height: 200px;
+    color: #000;
+    padding: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-bottom-right-radius: 15px;
+}
+.imgdiv button{
+    border: none;
+    background-color: #ea131d;
+    color: #fff;
+    height: 50px;
+    width: 130px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+.shahiback{
+    background-image: url('Kaju-Moti-Pulao-desktop_0.webp');
+    background-repeat: no-repeat;
+    background-size: 100%   ;
+    height: 500px;
+    width: 100%;
+}
+.c67{
+    border-left: 5px solid #e84200;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.cflast{
+    margin-top: 50px;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+}
+hr{
+    width: 100%;
+    background-color: #e84200;
+    border: 5px solid ;
+    height: 10px;
+}

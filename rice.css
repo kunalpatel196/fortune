@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+    color: #e84200!important;
+}
+.cf1 {
+    text-decoration: none;
+  list-style: none;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  height: auto;
+  overflow: hidden;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.navc4{
+    padding-top: 20px;
+}
+
+.cf1 .navc8 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 32px;
+    cursor: pointer;
+    font-size: 17px;
+    color: #e84200;
+}
+.back h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.back p{
+    color: black;
+    background: none;
+    -webkit-text-fill-color: black;
+}
+.back{
+    margin: 0;
+    padding: 0;
+    background: url(bg-text.png) top center;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 200px;
+    text-align: center;
+}
+.atta .c6{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+    
+}
+.c6 button{
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 20px;
+    height: 65px;
+    width: 150px;
+    
+}
+.cflast{
+    margin-top: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+   
+}
+hr{
+    width: 100%;
+    height: 5px;
+    background-color: #e84200;
+    border: 5px solid #e84200;
+    margin: 0rem;
+    margin-top: 50px;
+
+    
+}
+.cfnoy{
+    padding-top: 50px;
+}
